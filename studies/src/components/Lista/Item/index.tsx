@@ -11,4 +11,4 @@ const Item = ({tarefa, tempo, selecionado, completado, id}: ITarefa) => {
     )
 }
 
-export default Item
+export default Item;
