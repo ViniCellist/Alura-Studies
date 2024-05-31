@@ -14,6 +14,7 @@ const Item = (
         id, 
         selecionaTarefa
     }: Props) => {
+
     return (
         <li 
             className={`${style.item} ${selecionado ? style.itemSelecionado : ''} ${completado ? style.itemCompletado : ''}`} 
