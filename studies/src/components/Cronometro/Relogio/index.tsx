@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./Relogio.module.scss"
 
 interface Props {
@@ -13,13 +12,13 @@ const Relogio = ({tempo = 0}: Props) => {
 
 
     return (
-        <React.Fragment>
+        <>
             <span className={style.relogioNumero}>{minutoDezena}</span>
             <span className={style.relogioNumero}>{minutoUnidade}</span>
             <span className={style.relogioDivisao}>:</span>
             <span className={style.relogioNumero}>{segundoDezena}</span>
             <span className={style.relogioNumero}>{segundoUnidade}</span>
-        </React.Fragment>
+        </>
     )
 }
 
